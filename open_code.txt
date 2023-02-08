@@ -1,0 +1,20 @@
+1).  Git is a version control system when the record of modifications of the code is maintained but when we talk about Github it is helpful in managing repositories and is totally cloud based. Git is installed locally.
+
+
+2).  Following are the some basic Git commands :
+     i)  git init- to start a new repository.
+	ii)  git clone- to make the copy of the repo in the new directory.
+	iii) git branch- to create a new branch.
+	iv) git status- give info about the branch.
+	v)  git commit- to save changes. 
+
+
+3).  First, the project must be forked,
+	then clone it by clicking on the clone button and copy the link, after opeaning the terminal use the command git clone and copy the link
+	go to the cloned directory by using the command cd [name of repository]
+	create a branch by using the command git checkout
+	make changes to the project and save it using git commit command, 
+	afterwards identify the remote's name for the repository using the git remote command
+	then push changes using git push origin command
+	at the end, inorder to create pull request, go to the repository in github and click on the button "Compare and Pull request"
+	then click on create pull request.	
